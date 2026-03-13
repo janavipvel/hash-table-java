@@ -25,6 +25,7 @@ class DNSCache {
     public static void main(String[] args) {
         DNSCache d = new DNSCache();
         System.out.println(d.resolve("google.com"));
+      
         System.out.println(d.resolve("google.com"));
     }
 }
